@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11:ubi
+FROM eclipse-temurin:19.0.1_10-jdk-focal
 
 WORKDIR /app
 

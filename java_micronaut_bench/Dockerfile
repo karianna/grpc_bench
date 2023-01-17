@@ -1,4 +1,4 @@
-FROM adoptopenjdk:16_36-jdk-hotspot
+FROM eclipse-temurin:19.0.1_10-jdk-focal
 
 WORKDIR /app
 COPY java_micronaut_bench /app
