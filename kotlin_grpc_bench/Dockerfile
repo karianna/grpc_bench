@@ -1,4 +1,4 @@
-FROM eclipse-temurin:19.0.1_10-jdk-focal
+FROM eclipse-temurin:23-jdk-noble
 
 WORKDIR /app
 COPY kotlin_grpc_bench /app
